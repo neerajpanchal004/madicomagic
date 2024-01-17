@@ -16,7 +16,7 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/nutritrack.svg"
+                                src="/logo.webp"
                                 alt="logo"
                                 className="h-6 w-auto"
                                 height="24"
@@ -26,15 +26,15 @@ export const Header = () => {
                         </Link>
                     </h1>
                 </div>
-                <SectionContainer className="flex items-center ml-auto">
+                <SectionContainer className="flex items-center ml-auto justify-between">
                     <Nav />
                     <ButtonGroup className="hidden md:block">
                         <a
                             role="button"
-                            href="https://github.com/christian-luntok/nutritrack"
+                            href="https://chrstnl.com/"
                             className="btn btn--secondary ml-4"
                         >
-                            Get Template
+                            Get started
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>

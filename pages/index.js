@@ -16,6 +16,7 @@ import {
     CardImage,
     Card
 } from "@components/Card";
+import { Button } from "@components/Button";
 
 export default function Home() {
     return (
@@ -34,16 +35,16 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer id="features" className="features">
-                            <BadgeGroup alignment="center">
+                            {/* <BadgeGroup alignment="center">
                                 <BadgeMessage>Features</BadgeMessage>
-                            </BadgeGroup>
-                            <PageTitle
+                            </BadgeGroup> */}
+                            {/* <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
                                 Simplify Your Nutrition Journey with NutriTrack
-                            </PageTitle>
-                            <Content className="text-center" alignment="center">
+                            </PageTitle> */}
+                            {/* <Content className="text-center" alignment="center">
                                 <p>
                                     Hey there! Welcome to NutriTrack, the
                                     ultimate nutrition meal planner powered by
@@ -52,7 +53,7 @@ export default function Home() {
                                     piece of cake (pun intended). Check them
                                     out:
                                 </p>
-                            </Content>
+                            </Content> */}
                             <ContentImage />
                         </SectionContainer>
                     </MotionBTTContainer>
@@ -61,10 +62,10 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer className="feature-tabs">
-                            <BadgeGroup alignment="center">
+                            {/* <BadgeGroup alignment="center">
                                 <BadgeMessage>More Features</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
-                            </BadgeGroup>
+                            </BadgeGroup> */}
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
@@ -85,48 +86,38 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features4.png"
+                                            src="/city-hospital-building.webp"
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Customizable Layouts
+                                            Customer Support
                                         </CardHeader>
                                         <p>
-                                            Personalize your meal planning
-                                            experience with our flexible
-                                            layouts. Tailor your sections,
-                                            categories, and tabs to suit your
-                                            unique style and organization
-                                            preferences. Our template adapts to
-                                            your needs, providing a seamless and
-                                            personalized planning experience.
+                                            At Medico Magic, exceptional customer service is our priority. Our dedicated support team is available to assist you with any inquiries, technical support, or guidance you may require. We strive to ensure a smooth and satisfactory experience throughout your journey with us.
+
+
                                         </p>
                                     </CardBody>
                                 </Card>
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/features3.png"
+                                            src="/doctor-consultation.webp"
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Progress Tracking
+Ready to get started?
                                         </CardHeader>
                                         <p>
-                                            Celebrate your wins and stay
-                                            motivated on your nutrition journey.
-                                            NutriTrack allows you to monitor
-                                            your progress with weight,
-                                            measurements, and other key metrics.
-                                            Track your improvements over time
-                                            and see the positive impact of your
-                                            healthy choices.
+                                            Have a query or need assistance? Click on the button below and Fill out the form below, and our team will promptly get back to you..
+
                                         </p>
                                     </CardBody>
                                 </Card>
                             </CardGroup>
                         </SectionContainer>
                     </MotionBTTContainer>
+                    < Button className="w-40 text-2xl mx-auto p-4">Contact</Button>
                     {/* Testimonials */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
@@ -135,13 +126,13 @@ export default function Home() {
                             id="testimonials"
                             className="benefits"
                         >
-                            <BadgeGroup alignment="left">
-                                <BadgeMessage>Testimonials</BadgeMessage>
-                                <BadgeIcon icon="twemoji:waving-hand" />
-                            </BadgeGroup>
+                            {/* <BadgeGroup alignment="left"> */}
+                                {/* <BadgeMessage>Testimonials</BadgeMessage> */}
+                                {/* <BadgeIcon icon="twemoji:waving-hand" />
+                            </BadgeGroup> */}
                             <PageTitle className="" type="default">
-                                This is what our customers have to say about
-                                this template
+                               Why Choose <span className="text-red-600">Medico Magic?</span> 
+
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
@@ -151,15 +142,15 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer id="faq" className="faq">
-                            <BadgeGroup alignment="center">
+                            {/* <BadgeGroup alignment="center">
                                 <BadgeMessage>FAQ</BadgeMessage>
-                            </BadgeGroup>
+                            </BadgeGroup> */}
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about NutriTrack?{" "}
-                                <br></br>
+                                {/* Got some burning questions about NutriTrack?{" "}
+                                <br></br> */}
                                 <br></br>No worries! We&apos;ve got the answers
                                 you need:
                             </PageTitle>

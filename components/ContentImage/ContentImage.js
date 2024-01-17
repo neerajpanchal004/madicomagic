@@ -6,25 +6,37 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
-        content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
-        align: "right",
-        image: "/features1.png"
+        title: "Our Mission",
+        content:"Our mission at Medico Magic is to empower healthcare providers with the latest cutting-edge medical equipment, enabling them to deliver exceptional care and improve patient outcomes. We aim to contribute significantly to the advancement of the healthcare sector by providing innovative, reliable, and cost-effective solutions",
+        align: "left",
+        image: "/hero_image1.webp"
     },
     {
         id: uuid(),
-        title: "Shopping List",
-        content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+        title: "Our Team",
+        content:"Meet the dedicated professionals behind Medico Magic. Our team comprises experts in the medical equipment field, including skilled technicians, knowledgeable sales representatives, and customer service specialists. Together, we work tirelessly to ensure that our clients receive top-quality products and exceptional service.",
         align: "left",
-        image: "/features2.png"
+        image: "/doctor-nurses.webp"
+    },
+    {
+        id: uuid(),
+        title: "Partnerships",
+        content:"Medico Magic collaborates with leading global manufacturers and suppliers to bring you a diverse range of high-quality medical equipment. Our partnerships enable us to offer cutting-edge solutions that meet the evolving needs of the healthcare industry.",
+        align: "left",
+        image: "/service-slide-2.webp"
+    },
+     {
+        id: uuid(),
+        title: "Community Involvement",
+        content:"We believe in giving back to the community. Medico Magic actively participates in initiatives that support healthcare awareness, education, and charitable endeavors, contributing to the well-being of society. ",
+        align: "left",
+        image: "/comm3.webp"
     }
 ];
 
 export const ContentImage = () => {
     return (
-        <SectionContainer className="process-items mt-16 space-y-16">
+        <SectionContainer className="process-items mt-16 space-y-16 bo">
             {ContentImageData.map((item) => (
                 <div
                     id={item.id}

@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 
 const DATA = [
     {
-        title: "Template",
+        title: "SUPPORT",
         items: [
             {
                 label: "Features",
@@ -23,26 +23,26 @@ const DATA = [
         ]
     },
     {
-        title: "Company",
+        title: "MEDICO MAGIC",
         items: [
             {
-                label: "About",
-                href: "https://github.com/christian-luntok/",
+                label: "Skype",
+                href: "https://www.skype.com/en/",
                 target: "_blank"
             },
             {
                 label: "Twitter",
-                href: "https://github.com/christian-luntok/",
+                href: "https://twitter.com/",
                 target: "_blank"
             },
             {
-                label: "Instagram",
-                href: "https://github.com/christian-luntok/",
+                label: "Linkedin",
+                href: "https://www.linkedin.com/",
                 target: "_blank"
             },
             {
                 label: "Facebook",
-                href: "https://github.com/christian-luntok/",
+                href: " https://www.facebook.com/",
                 target: "_blank"
             }
         ]
@@ -61,7 +61,7 @@ export const Footer = () => {
                     <div className="footer-links mb-12 grid grid-cols-2 gap-8 md:mb-16 md:grid-cols-8 lg:grid-cols-12">
                         <div className="col-span-6">
                             <div className="footer--logo grid gap-8">
-                                <Link href="/">
+                                {/* <Link href="/">
                                     <Image
                                         src="/nutritrack.svg"
                                         alt="logo"
@@ -70,9 +70,18 @@ export const Footer = () => {
                                         width="100"
                                         priority
                                     />
-                                </Link>
+                                </Link> */}
+                                <div>
+                                <h3 className="text-red-600">Company</h3>
+                                <div>
+                                 <p>Office Manager : Anuj Kumar</p>
+                                <p>Landline : 042273148</p>
+                                <p>Address : Office number 20, 30th floor , Al moosa tower 2, Sheikh Zayed road Dubai, P.O. Box 120780</p>
+                                </div>
+                              
+                                </div>
                                 {/* Get Template button; remove if not used */}
-                                <ButtonGroup alignment="left">
+                                {/* <ButtonGroup alignment="left">
                                     <a
                                         role="button"
                                         href="https://github.com/christian-luntok/nutritrack"
@@ -81,7 +90,7 @@ export const Footer = () => {
                                         Get Template
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
-                                </ButtonGroup>
+                                </ButtonGroup> */}
                             </div>
                         </div>
                         <div className="col-span-6">
@@ -124,7 +133,7 @@ export const Footer = () => {
                 </div>
             </SectionContainer>
             {/* Footer Credits */}
-            <SectionContainer className="footer-credits relative z-10">
+            {/* <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
                         © {year} Nutritrack. All rights reserved{" - "}
@@ -140,7 +149,7 @@ export const Footer = () => {
                         </span>
                     </p>
                 </div>
-            </SectionContainer>
+            </SectionContainer> */}
             <div className="footer--background"></div>
         </footer>
     );

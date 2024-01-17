@@ -1,35 +1,43 @@
 import { SectionContainer } from "@components/Section";
 import { Icon } from "@iconify/react";
 import { v4 as uuid } from "uuid";
+// import Image from "next/image";
 
 const ColumnData = [
     {
         id: uuid(),
-        title: "Emily J.",
-        icon: "carbon:user-avatar-filled-alt",
-        content:
-            "NutriPlan has revolutionized my meal planning and nutrition journey. With its intuitive Notion template, I can effortlessly plan my meals, track my nutrition, and stay on top of my health goals. It's truly a game-changer!"
+        title: "Quality Assurance",
+        content:"We uphold the highest standards of quality in all our products, ensuring their efficacy and reliability."
     },
     {
         id: uuid(),
-        title: "Jason F.",
-        icon: "carbon:user-avatar-filled-alt",
-        content:
-            "I've tried various meal planning tools, but NutriPlan stands out from the rest. The customizable layouts and seamless recipe integration make it a breeze to create delicious and healthy meals. It's become an essential part of my wellness routine."
+        title: "Customer-Centric Approach",
+        // icon: "carbon:user-avatar-filled-alt",
+        content:"Your satisfaction is our priority, and we strive to exceed your expectations by delivering exceptional service."
     },
     {
         id: uuid(),
-        title: "Miguel J.",
-        icon: "carbon:user-avatar-filled-alt",
-        content:
-            "NutriPlan has made meal planning and tracking nutrition so much easier and enjoyable. The comprehensive features and user-friendly interface have helped me stay on track with my health goals. I highly recommend it to anyone looking for a convenient and effective solution."
+        title: "Reliability and Trust",
+        // icon: "carbon:user-avatar-filled-alt",
+        content:"With a reputation built on trust and reliability, we are your dependable partner in healthcare equipment"
     },
     {
         id: uuid(),
-        title: "Kim L.",
-        icon: "carbon:user-avatar-filled-alt",
-        content:
-            "I can't imagine my nutrition journey without NutriPlan. It has simplified the way I plan my meals and track my progress. The ability to customize layouts and easily integrate recipes has made healthy eating a breeze. It's been a true lifesaver!"
+        title: "Innovation and Technology",
+        // icon: "carbon:user-avatar-filled-alt",
+        content:"We stay abreast of the latest advancements in medical technology to offer you the most innovative solutions."
+    },
+     {
+        id: uuid(),
+        title: "Comprehensive Support",
+        // icon: "carbon:user-avatar-filled-alt",
+        content:"Our commitment extends beyond product delivery. We provide comprehensive support services, including installation, training, maintenance, and after-sales assistance, ensuring a seamless experience."
+    },
+     {
+        id: uuid(),
+        title: "Customized Solutions",
+        // icon: <Image src="/Code.svg" width="10" height="10" />,
+        content:"Understanding that every healthcare facility is unique, we tailor our solutions to meet your specific requirements, offering personalized and adaptable options for your needs. "
     }
 ];
 
